@@ -1,0 +1,38 @@
+#error {
+    color: red;
+}
+
+.wrapper {
+    border: black 1px solid;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0px auto;
+    width: 1000px;
+    height: 1000px;
+    background-color: lightblue;
+}
+
+#addNote{
+    box-sizing: border-box;
+    width:950px;
+    height: 80px;
+    background-color: white;
+    border: 1px solid black;
+    padding:25px;
+}
+
+#display{
+    box-sizing: border-box;
+    width: 934px;
+    height: 739px;
+    background-color: white;
+    border: 1px solid black;
+    padding:25px;
+    overflow-y: scroll;
+}
+.note{
+    height: 100px;
+    width: 880px;
+    background-color: white;
+    border: 1px solid black;
+}
